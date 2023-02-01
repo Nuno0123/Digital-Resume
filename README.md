@@ -1,2 +1,2 @@
 # Digital-resume
-My portfolio of work and achievements 
+My portfolio of classwork and achievements 
