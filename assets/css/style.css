@@ -11,7 +11,7 @@ body {
 .header nav {
   padding-top: 15px;
   padding-bottom: 15px;
-  padding-left: 25px;
+  padding-right: 30px;
   margin-right: 20px;
   float: right;
   font-family: 'Times New Roman', Times, serif;
@@ -28,11 +28,113 @@ a {
   text-decoration: none;
 }
 
-
-.About-me h1 { pad: 20px;
+.center img {
+  padding-top: 100px;
+  padding-left: 370px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+}
+.content h1 { 
+  padding: 20px;
+  display: block;
+  text-align: center;
   font-family: 'Times New Roman', Times, serif;
   background-color: blueviolet;
   color: aliceblue;
-  display: inline-block;
-  font-size: 48px;
+  font-size: 48px; 
+  border: 5px solid grey;
+  margin-inline-start: 18%;
+  margin-inline-end: 23%;
+}
+.About-me {
+  padding: 20px;
+  background-color: blueviolet;
+  color: aliceblue;
+  border: 5px solid grey;
+}
+
+.About-me h2 {
+  display: block;
+ font-family: 'Times New Roman', Times, serif;
+  background-color: blueviolet;
+  color: aliceblue;
+  margin-inline-start: 1%;
+}
+
+.About-me P {
+  display: block;
+  font-family: 'Times New Roman', Times, serif;
+   background-color: blueviolet;
+   color: aliceblue;
+   margin: 0%;
+}
+.Portfolio {
+  margin-top: 1%;
+  padding: 20px;
+  background-color: blueviolet;
+  color: aliceblue;
+  border: 5px solid grey;
+}
+
+.Portfolio h2 {
+  display: block;
+ font-family: 'Times New Roman', Times, serif;
+  background-color: blueviolet;
+  color: aliceblue;
+  margin-inline-start: 1%;
+}
+
+.Portfolio P {
+  display: block;
+  font-family: 'Times New Roman', Times, serif;
+   background-color: blueviolet;
+   color: aliceblue;
+}
+.References {
+  margin-top: 1%;
+  padding: 20px;
+  background-color: blueviolet;
+  color: aliceblue;
+  border: 5px solid grey;
+}
+
+.References h2 {
+  display: block;
+ font-family: 'Times New Roman', Times, serif;
+  background-color: blueviolet;
+  color: aliceblue;
+  margin-inline-start: 1%;
+}
+
+.References P {
+  display: block;
+  font-family: 'Times New Roman', Times, serif;
+   background-color: blueviolet;
+   color: aliceblue;
+   margin: 0%;
+}
+.Contact {
+  margin-top: 1%;
+  padding: 20px;
+  background-color: blueviolet;
+  color: aliceblue;
+  border: 5px solid grey;
+}
+
+.Contact h2 {
+  display: block;
+ font-family: 'Times New Roman', Times, serif;
+  background-color: blueviolet;
+  color: aliceblue;
+  margin-inline-start: 1%;
+}
+
+.Contanct P {
+  display: block;
+  font-family: 'Times New Roman', Times, serif;
+   background-color: blueviolet;
+   color: aliceblue;
+   margin: 0%;
 }
