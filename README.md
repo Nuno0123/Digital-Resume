@@ -1,6 +1,6 @@
 ## Digital-resume
  
- # Desecription
+ # Description
  For this week's challenge, I'm asked to create a deployable website that displays my resume. Within this resume I'm expected to complete the following Acceptance criteria.
 
  # Acceptance Criteria 
@@ -27,6 +27,8 @@
 * Created addition link for References 
 * Created contact link with a hyperlink to my email address
 * Created responsive layout that adapts to viewpoint
+* Cited work as comments through the code 
+* Added comments to best explain my work
 
 # Website 
 https://nuno0123.github.io/Digital-resume/
