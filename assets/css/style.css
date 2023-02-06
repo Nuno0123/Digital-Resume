@@ -146,8 +146,8 @@ a {
 
 @media screen and (max-width: 992px) {
   .center,
-  header nav a {
-    flex-direction: column;
+  header nav {
+    text-align: center;
   }
 
   }
