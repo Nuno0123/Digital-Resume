@@ -1,9 +1,8 @@
-## Digital-resume
- 
- # Description
- For this week's challenge, I'm asked to create a deployable website that displays my resume. Within this resume I'm expected to complete the following Acceptance criteria.
+# Digital-resume
+ ## Description
+ For this week's challenge I'm asked to create a portfolio page, in which I can display my previous projects. This webpage is going to be a resume, that I needed to build from scratch. The webpage is considered done once it has the following acceptance criteria done.
 
- # Acceptance Criteria 
+ ## Acceptance Criteria 
  * GIVEN I need to sample a potential employee's previous work
  * WHEN I load their portfolio
  * THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
@@ -18,7 +17,7 @@
  * WHEN I resize the page or view the site on various screens and devices
  * THEN I am presented with a responsive layout that adapts to my viewport
 
-# Work completed
+## Work completed
 * Created and Structured html with semantic elements to correspond with css 
 * Created the css file
 * Created about me link 
@@ -30,9 +29,9 @@
 * Cited work as comments through the code 
 * Added comments to best explain my work
 
-# Website 
+## Website 
 https://nuno0123.github.io/Digital-resume/
-# Screenshot
+## Screenshot
 ![screenshot](/assets/images/_Users_nestormontanez_bootcamp_Digital-resume_index.html.png)
 # Contact
 [Nestor Montañez on Github](https://github.com/Nuno0123)
