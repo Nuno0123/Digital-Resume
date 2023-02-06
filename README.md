@@ -26,6 +26,7 @@
 * linked first chellenege of Bootcamp as part of my portfolio to show previous work
 * Created addition link for References 
 * Created contact link with a hyperlink to my email address
+* Created responsive layout that adapts to viewpoint
 
 # Website 
 # Screenshot
