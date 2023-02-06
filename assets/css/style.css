@@ -29,14 +29,15 @@ a {
   color: blue;
   text-decoration: none;
 }
-
-.center img {
-  padding-top: 100px;
-  padding-left: 370px;
+.center{
+  width: 100%;
   display: flex;
   justify-content: center;
+}
+.center img {
+  width: 44%;
+  padding-top: 100px;
   text-align: center;
-  width: 50%;
 }
 .content h1 { 
   padding: 20px;
@@ -47,8 +48,8 @@ a {
   color: aliceblue;
   font-size: 48px; 
   border: 5px solid grey;
-  margin-inline-start: 18%;
-  margin-inline-end: 23%;
+  margin-inline-start: 20%;
+  margin-inline-end: 20%;
 }
 .About-me {
   padding: 20px;
@@ -58,7 +59,7 @@ a {
 }
 
 .About-me h2 {
-  display: block;
+  display: flexbox;
  font-family: 'Times New Roman', Times, serif;
   background-color: blueviolet;
   color: aliceblue;
@@ -87,7 +88,9 @@ a {
   color: aliceblue;
   margin-inline-start: 1%;
 }
-
+.Portfolio img {
+  width: 50%;
+}
 .Portfolio P {
   display: block;
   font-family: 'Times New Roman', Times, serif;
@@ -140,3 +143,12 @@ a {
    color: aliceblue;
    margin: 0%;
 }
+
+@media screen and (max-width: 992px) {
+  .center,
+  header nav a {
+    flex-direction: column;
+  }
+
+  }
+  
