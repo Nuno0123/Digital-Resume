@@ -2,18 +2,19 @@ body {
   background-color:#ae86b5;
 }
 
+
 .header {
   pad: 20px;
   font-family: 'Times New Roman', Times, serif;
   background-color: blueviolet;
   color: aliceblue;
+  float: right;
 }
 .header nav {
+  display: flex;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-right: 30px;
-  margin-right: 20px;
-  float: right;
   font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
   background-color: blueviolet;
@@ -41,7 +42,6 @@ a {
 }
 .content h1 { 
   padding: 20px;
-  display: block;
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
   background-color: blueviolet;
@@ -59,7 +59,7 @@ a {
 }
 
 .About-me h2 {
-  display: flexbox;
+  display: flex;
  font-family: 'Times New Roman', Times, serif;
   background-color: blueviolet;
   color: aliceblue;
@@ -67,7 +67,7 @@ a {
 }
 
 .About-me P {
-  display: block;
+  display: flex;
   font-family: 'Times New Roman', Times, serif;
    background-color: blueviolet;
    color: aliceblue;
@@ -82,7 +82,7 @@ a {
 }
 
 .Portfolio h2 {
-  display: block;
+  display: flex;
  font-family: 'Times New Roman', Times, serif;
   background-color: blueviolet;
   color: aliceblue;
@@ -92,7 +92,7 @@ a {
   width: 50%;
 }
 .Portfolio P {
-  display: block;
+  display: flex;
   font-family: 'Times New Roman', Times, serif;
    background-color: blueviolet;
    color: aliceblue;
@@ -106,7 +106,7 @@ a {
 }
 
 .References h2 {
-  display: block;
+  display: flex;
  font-family: 'Times New Roman', Times, serif;
   background-color: blueviolet;
   color: aliceblue;
@@ -114,7 +114,7 @@ a {
 }
 
 .References P {
-  display: block;
+  display: flex;
   font-family: 'Times New Roman', Times, serif;
    background-color: blueviolet;
    color: aliceblue;
@@ -129,7 +129,7 @@ a {
 }
 
 .Contact h2 {
-  display: block;
+  display: flex;
  font-family: 'Times New Roman', Times, serif;
   background-color: blueviolet;
   color: aliceblue;
@@ -137,18 +137,30 @@ a {
 }
 
 .Contanct P {
-  display: block;
+  display: flex;
   font-family: 'Times New Roman', Times, serif;
    background-color: blueviolet;
    color: aliceblue;
    margin: 0%;
 }
 
-@media screen and (max-width: 992px) {
-  .center,
+@media screen and (max-width: 576px) {
+
+  .header,
   header nav {
+    flex-direction: column;
     text-align: center;
+    float: none;
+    }
+    .center img {
+      width: 80%;
+      padding-top: 5%;
+    }
+  .content h1 {
+    font-size: 150%;
+    margin-inline-start: 0%;
+    margin-inline-end: 0%;
+  }
   }
 
-  }
   
