@@ -19,4 +19,10 @@
  * THEN I am presented with a responsive layout that adapts to my viewport
 
 # Work completed
-* nothing so far...
+* Created and Structured html with semantic elements to correspond with css 
+* Created the css file
+* Created about me link 
+* Created Portfolio link 
+* linked first chellenege of Bootcamp as part of my portfolio to show previous work
+* Created addition link for References 
+* Created contact link with a hyperlink to my email address
