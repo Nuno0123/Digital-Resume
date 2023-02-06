@@ -1,7 +1,8 @@
+/*This body container here made the whole background a nice purple color */
 body {
   background-color:#ae86b5;
 }
-
+/*This header container created the small box on the top right hand corner of the website, we also gave it some padding to make it look neater. We gave the website a font-family for incase the user doesn't have Times New Roman it'll default to Times and if not that than serif. We added a background color of blueviolet with aliceblue lettering to make it easier to read. Finally we gave it a "float: right" to make it float in the upper right hand corner of the website*/
 .header {
   pad: 20px;
   font-family: 'Times New Roman', Times, serif;
@@ -9,36 +10,39 @@ body {
   color: aliceblue;
   float: right;
 }
+/*This header nav created a contianer within the header's container this is controlling the actual words within the box on the upper right hand corner. Here we made the display flex to help our viewpoints from other devices. we added some padding to the top, bottom and right of the letters to make it look neater. Finally we've made the words withing the containers a font size of 20px*/
 .header nav {
   display: flex;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-right: 30px;
-  font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
-  background-color: blueviolet;
-}
 
+}
+/*This header nav a container is only affecting the "a href=" within the nav container.*/
 .header nav a {
   margin-left: 25px;
   color: #ffffff;
   text-decoration: none;
 }
-
+/*This a container? (again, not sure if that's the correct terminology) but its controlling all the other "a href=" on the screen outside of the header nav a containter to be changed to blue to represent a hyperlink*/
 a {
   color: blue;
   text-decoration: none;
 }
+/*This here is creating a container for the space behind the photo of me. We made the width of the background 100%, added display flex to help with viewpoints and added justify-content: Center to help center the image*/
 .center{
   width: 100%;
   display: flex;
   justify-content: center;
 }
+/*This section here is refering to the photo itself, giving it a width of 44% and 100% padding to the top to help add some seperation between the header cotnainer and the actually image of me*/
 .center img {
   width: 44%;
   padding-top: 100px;
   text-align: center;
 }
+/*This section referes to the my name on the website, we labeled it content h1 to help connect them between html and css, we adding some adding, align the text to the center so it looks nicer, gave it a font-family in case the user doesn't have Times New Roman, gave it the same blueviolet background with aliceblue to follow the color scheme and made the font size of my name 48px. Finally I added a solid grey boarder around the container to give it more of a design and added in line margin start and ends to shorter the container on the right and left. For the follow containers .About-me, Portfolio, References, Contact have the same as far as font-family, background color, font color and bordered with a solids grey line to make it look better */
 .content h1 { 
   padding: 20px;
   text-align: center;
@@ -50,8 +54,10 @@ a {
   margin-inline-start: 20%;
   margin-inline-end: 20%;
 }
+
 .About-me {
   padding: 20px;
+  font-family: 'Times New Roman', Times, serif;
   background-color: blueviolet;
   color: aliceblue;
   border: 5px solid grey;
@@ -59,22 +65,18 @@ a {
 
 .About-me h2 {
   display: flex;
- font-family: 'Times New Roman', Times, serif;
-  background-color: blueviolet;
-  color: aliceblue;
   margin-inline-start: 1%;
 }
 
 .About-me P {
   display: flex;
-  font-family: 'Times New Roman', Times, serif;
-   background-color: blueviolet;
-   color: aliceblue;
    margin: 0%;
 }
+
 .Portfolio {
   margin-top: 1%;
   padding: 20px;
+  font-family: 'Times New Roman', Times, serif;
   background-color: blueviolet;
   color: aliceblue;
   border: 5px solid grey;
@@ -82,23 +84,21 @@ a {
 
 .Portfolio h2 {
   display: flex;
- font-family: 'Times New Roman', Times, serif;
-  background-color: blueviolet;
-  color: aliceblue;
   margin-inline-start: 1%;
 }
+
 .Portfolio img {
   width: 20%;
 }
+
 .Portfolio P {
   display: flex;
-  font-family: 'Times New Roman', Times, serif;
-   background-color: blueviolet;
-   color: aliceblue;
 }
+
 .References {
   margin-top: 1%;
   padding: 20px;
+  font-family: 'Times New Roman', Times, serif;
   background-color: blueviolet;
   color: aliceblue;
   border: 5px solid grey;
@@ -106,9 +106,6 @@ a {
 
 .References h2 {
   display: flex;
- font-family: 'Times New Roman', Times, serif;
-  background-color: blueviolet;
-  color: aliceblue;
   margin-inline-start: 1%;
 }
 
@@ -118,14 +115,13 @@ a {
 
 .References P {
   display: flex;
-  font-family: 'Times New Roman', Times, serif;
-   background-color: blueviolet;
-   color: aliceblue;
    margin: 1%;
 }
+
 .Contact {
   margin-top: 1%;
   padding: 20px;
+  font-family: 'Times New Roman', Times, serif;
   background-color: blueviolet;
   color: aliceblue;
   border: 5px solid grey;
@@ -133,22 +129,15 @@ a {
 
 .Contact h2 {
   display: flex;
- font-family: 'Times New Roman', Times, serif;
-  background-color: blueviolet;
-  color: aliceblue;
   margin-inline-start: 1%;
 }
 
 .Contanct P {
   display: flex;
-  font-family: 'Times New Roman', Times, serif;
-   background-color: blueviolet;
-   color: aliceblue;
    margin: 0%;
 }
-
+/*added media queries to help change when the website is being viewed from a different device such as a PC, tablet, or Smartphone.*/
 @media screen and (max-width: 576px) {
-
   .header,
   header nav {
     flex-direction: column;
