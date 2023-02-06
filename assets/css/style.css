@@ -88,7 +88,7 @@ a {
   margin-inline-start: 1%;
 }
 .Portfolio img {
-  width: 50%;
+  width: 20%;
 }
 .Portfolio P {
   display: flex;
@@ -110,6 +110,10 @@ a {
   background-color: blueviolet;
   color: aliceblue;
   margin-inline-start: 1%;
+}
+
+.References img {
+  width: 10%;
 }
 
 .References P {
@@ -151,15 +155,42 @@ a {
     text-align: center;
     float: none;
     }
+
     .center img {
       width: 80%;
       padding-top: 5%;
     }
+
   .content h1 {
     font-size: 150%;
     margin-inline-start: 0%;
     margin-inline-end: 0%;
   }
+
+  .Portfolio img {
+    width: 90%;
+  }
+  .References img {
+    width: 35%;
   }
 
+  }
+
+  @media screen and (max-width: 768px){
+    .Portfolio img {
+      width: 96%;
+    }
+    .References img {
+      width: 35%;
+    } 
+  }
+
+  @media screen and (max-width: 992px){
+    .Portfolio img {
+      width: 96%;
+    }
+    .References img {
+      width: 35%;
+    } 
+  }
   
