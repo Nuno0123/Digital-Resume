@@ -32,6 +32,6 @@
 ## Website 
 https://nuno0123.github.io/Digital-resume/
 ## Screenshot
-![screenshot](/assets/images/_Users_nestormontanez_bootcamp_Digital-resume_index.html.png)
+![screenshot](./assets/images/_Users_nestormontanez_bootcamp_Digital-resume_index.html%20(1).png)
 # Contact
 [Nestor Montañez on Github](https://github.com/Nuno0123)
